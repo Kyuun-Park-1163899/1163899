@@ -18,8 +18,8 @@ This repository contains comprehensive exploratory data analysis on IT incident 
 Source: ServiceNow-like incident event log exported as CSV (141,712 rows, 37 columns).
 
 - **Multi-row per incident** (status changes over time). Use latest closed record per incident for final SLA analysis.
-- **Final Analysis Dataset**: 6,729 unique closed incidents after filtering and deduplication
-- Date/time columns are strings and converted to datetime in notebooks.
+- **Final Analysis Dataset**: 6,729 unique closed incidents after filtering and deduplication.
+- Date/time columns are strings and converted to datetime.
 
 Key columns used in SLA analysis:
 
@@ -46,7 +46,7 @@ Python libs: pandas, numpy, matplotlib, seaborn, scipy, scikit-learn.
 
 Open the main SLA analysis notebook:
 
-- **Primary Analysis**: `data/incident_event_log_dataset.csv`
+- `data/incident_event_log_dataset.csv`
 
 ## Research Question
 
@@ -151,18 +151,6 @@ Open the main SLA analysis notebook:
 ## Next Steps (Modeling Suggestions)
 
 - **SLA prediction**: Logistic regression/XGBoost with selected 25 features
-- **Assignment optimization**: Route incidents based on group performance patterns
-- **Seasonal modeling**: Develop time-aware SLA prediction models
-- **Process improvement**: Investigate priority confirmation workflow optimization
-- **Real-time monitoring**: Implement dashboards for assignment group and category performance
-
-## Technical Implementation
-
-**Recommended Models**:
-
-- **Random Forest**: Handles mixed data types, interpretable feature importance
-- **XGBoost**: Likely best predictive performance
-- **Regularization**: Required due to identified multicollinearity issues
 
 **Model Considerations**:
 
