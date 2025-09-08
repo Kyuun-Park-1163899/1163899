@@ -152,6 +152,8 @@ Open the main SLA analysis notebook:
 
 - **SLA prediction**: Logistic regression/XGBoost with selected 25 features
 
+## Technical Implementation
+
 **Model Considerations**:
 
 - Address 98% correlation between severity metrics
