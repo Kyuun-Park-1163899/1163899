@@ -17,7 +17,7 @@ For my Machine Learning project, I chose the Incident Log Dataset from ServiceNo
 │   └── incidents_cleaned.csv          # Preprocessed data (6,729 records)
 ├── task/
 │   ├── assignment02_revised.ipynb     # EDA and data preprocessing analysis
-│   └── assignment03_working.ipynb     # Feature Engineering and modeling
+│   └── assignment03.ipynb            # Feature Engineering and modeling
 ├── requirements.txt
 └── README.md
 ```
@@ -213,9 +213,9 @@ pip install -r requirements.txt
 
 ### Required Libraries
 
-- pandas, numpy
-- matplotlib, seaborn
-- scikit-learn
-- scipy
-- shap (for XAI analysis)
-- imbalanced-learn
+- **Data Processing**: pandas>=1.0.0, numpy>=1.19.0
+- **Statistical Analysis**: scipy>=1.5.0
+- **Visualization**: matplotlib>=3.2.0, seaborn>=0.11.0
+- **Machine Learning**: scikit-learn>=0.24.0, imbalanced-learn>=0.8.0
+- **Explainable AI**: shap>=0.40.0
+- **Notebook Execution**: ipykernel
