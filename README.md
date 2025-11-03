@@ -1,4 +1,4 @@
-IT Incident SLA Compliance Analysis
+# IT Incident SLA Compliance Analysis
 
 This project analyzes IT incident management data to identify key factors affecting SLA (Service Level Agreement) compliance and develops machine learning models to predict SLA breaches. The work is designed for COMP647's practical machine learning requirements and aligns with my industrial internship project involving Accelo CRM integration with LLM-based chatbots.
 
