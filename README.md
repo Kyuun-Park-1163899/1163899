@@ -162,9 +162,9 @@ Three-tier approach:
 
 **Performance Metrics**
 
-- ROC-AUC: 0.90 (excellent discrimination benchmark)
-- Average Precision: 0.52 (271% improvement over 14.1% baseline)
-- Class Imbalance Handling: `class_weight='balanced'` (3.55× penalty for breach class)
+- ROC-AUC: 0.8986 (~0.90) (excellent discrimination benchmark)
+- Average Precision: 0.52 (271.1% improvement over 14.1% baseline)
+- Class Imbalance Handling: (class_weight='balanced'; ~3.55× loss weight for breach vs ~0.58× for met, ≈6.1× relative)
 
 #### 4. Explainable AI (XAI)
 
