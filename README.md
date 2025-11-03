@@ -4,7 +4,7 @@ This project analyzes IT incident management data to identify key factors affect
 
 ## Project Overview
 
-For my Machine Learning project, I chose the Incident Log Dataset from ServiceNow audit logs available on Kaggle. This dataset, with over 141,000 events and ~24,918 unique IT incidents, is ideal as it perfectly aligns with both COMP647's educational objectives and my industry internship project (COMP693), enabling rigorous academic analysis and practical real-world applicationx`.
+For my Machine Learning project, I chose the Incident Log Dataset from ServiceNow audit logs available on Kaggle. This dataset, with over 141,000 events and ~24,918 unique IT incidents, is ideal as it perfectly aligns with both COMP647's educational objectives and my industry internship project (COMP693), enabling rigorous academic analysis and practical real-world application.
 
 **Dataset Source**: [Incident Event Log Dataset on Kaggle](https://www.kaggle.com/datasets/mithilkotawadekar/incident-event-log-dataset)
 
